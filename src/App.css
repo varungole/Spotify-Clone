@@ -128,3 +128,147 @@
   background-color: #1DB954;
   border-radius: 4px;
 }
+
+.made-for-me {
+  background-color: #1f1f1f; /* Dark background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Text color */
+}
+
+.made-for-me-titles {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+.made-for-me {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Text color */
+  background-color: #121212; /* Background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Playlist {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Playlist:hover {
+  transform: scale(1.05);
+}
+
+.Playlist-image {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Playlist-name {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #fff;
+}
+
+
+.current-song-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #282828; /* Background color similar to Spotify */
+  padding: 10px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.song-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.song-name,
+.song-singer {
+  margin: 0;
+  color: #fff; /* Text color */
+}
+
+.song-name {
+  font-size: 1.2rem;
+}
+
+.song-singer {
+  font-size: 0.9rem;
+}
+
+.song-manipulation-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.song-manipulation-buttons button {
+  width: 80px; /* Adjust the width as needed */
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff; /* Button text color */
+  font-size: 0.9rem; /* Adjust the font size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.song-manipulation-buttons button:hover {
+  background-color: #333; /* Darker shade on hover */
+}
+
+.search-all {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 200px; /* Adjust the width as needed */
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px; /* Adjust the margin as needed */
+  font-size: 0.9rem; /* Adjust the font size as needed */
+}
+
+.search {
+  background-color: #1DB954; /* Spotify green color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 0.9rem; /* Adjust the font size as needed */
+}
+
+.search:hover {
+  background-color: #178a3b; /* Darker shade for hover effect */
+}
+
+
+.navbar-title {
+  color: black; /* Spotify green color */
+  margin: 0;
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
